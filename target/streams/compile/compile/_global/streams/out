@@ -1,0 +1,48 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:3:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m  [33mval[0m [36mpropagator[0m: [35mTextMapPropagator[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m  |                  [31m^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                  Not found: type TextMapPropagator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:4:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m    W3CTraceContextPropagator.getInstance()[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [31m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |    Not found: W3CTraceContextPropagator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:5:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m  [33mval[0m [36msetter[0m: [35mTextMapSetter[mutable.Map[String, String]][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m  |              [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |              Not found: type TextMapSetter[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E081] Type Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:6:5 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m    ([36mcarrier[0m, [36mkey[0m, [36mvalue[0m) => carrier.update(key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m  |     [31m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |     Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  |[0m
+[0m[[0m[31merror[0m] [0m[0m  |     I could not infer the type of the parameter carrier.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E081] Type Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:6:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m    ([36mcarrier[0m, [36mkey[0m, [36mvalue[0m) => carrier.update(key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m  |              [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |              Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  |[0m
+[0m[[0m[31merror[0m] [0m[0m  |              I could not infer the type of the parameter key.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E081] Type Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:6:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m    ([36mcarrier[0m, [36mkey[0m, [36mvalue[0m) => carrier.update(key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m  |                   [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                   Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  |[0m
+[0m[[0m[31merror[0m] [0m[0m  |                   I could not infer the type of the parameter value.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:7:46 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m  [33mval[0m [36merrorMapper[0m: [35mPartialFunction[Throwable, StatusCode][0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                              [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                              Not found: type StatusCode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:8:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    [33mcase[0m _ => StatusCode.UNSET[0m
+[0m[[0m[31merror[0m] [0m[0m  |              [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |              Not found: StatusCode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:10:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33mval[0m [36mapi[0m = Http.collectM[[35mZioRequest[0m] {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          Not found: type ZioRequest[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/trace-service-with-zio-telemetry/src/main/scala/FooServer.scala:10:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33mval[0m [36mapi[0m = Http.collectM[[35mZioRequest[0m] {[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            Not found: Http[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
