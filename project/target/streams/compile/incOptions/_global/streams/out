@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/microservices-with-zio-telemetry/project/target/scala-2.12/sbt-1.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/tbaboci/Documents/TutorialsAndLearnings/tracing_with_zio_using_scala3_elasticsearch/microservices-with-zio-telemetry/project/target/scala-2.12/sbt-1.0/classes.bak[0m
